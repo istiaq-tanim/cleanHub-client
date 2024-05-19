@@ -1,0 +1,264 @@
+[
+      {
+            "productName": "Eco-Friendly Dish Soap",
+            "rating": 4.5,
+            "price": 12.99,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": " Dish Soap",
+            "reviewNumber": 256,
+            "brand": "GreenClean",
+            "description": "Our eco-friendly dish soap is tough on grease and gentle on the environment. Made with plant-based ingredients, it leaves your dishes sparkling clean without any harmful chemicals.",
+            "images": [
+                  "https://i.ibb.co/y8zFtWy/1-Dish-Soap-Grapefruit-25oz-Front.png",
+                  "https://i.ibb.co/mcr22DS/2-Dish-Soap-Grapefruit-25oz-Back.png",
+                  "https://i.ibb.co/xJYfmcJ/3-Dish-Soap-Grapefruit-Value-Refill-Front.png"
+            ]
+      },
+      {
+            "productName": "Dishwasher Tablets",
+            "rating": 4.2,
+            "price": 19.99,
+            "flashSale": false,
+            "category": "Dishwasher Detergent",
+            "reviewNumber": 187,
+            "brand": "SparkleClean",
+            "description": "Make dishwashing a breeze with our powerful dishwasher tablets. Each tablet dissolves stubborn stains and leaves your dishes spotless and shiny. No pre-rinsing required!",
+            "images": [
+                  "https://i.ibb.co/KFv1dMw/b4cf571f6717e0fc10979d8aa90581e4-750x.webp",
+                  "https://i.ibb.co/FmmBHNM/d56ad8475ac527703bf7b6d0c440fc24-750x.webp"
+            ]
+      },
+      {
+            "productName": "Sponge Scrubber",
+            "rating": 4.0,
+            "price": 6.49,
+            "flashSale": true,
+            "discountPercentage": 5,
+            "category": "Dish Brush",
+            "reviewNumber": 134,
+            "brand": "SuperScrub",
+            "description": "Say goodbye to stuck-on food with our durable sponge scrubber. Its abrasive surface tackles tough messes while the soft side gently cleans delicate surfaces. Ergonomically designed for comfortable grip.",
+            "images": [
+                  "https://i.ibb.co/pxgyzfR/077-A6112-Edit-eb3c63b5-f86b-4a7b-b3f7-f74d9817f13d-900x.webp",
+                  "https://i.ibb.co/VqrxM6W/eucalyptuspopupsponge-1eb56ee4-ef88-4dab-93c3-7f4f79f164aa-900x.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Drying Rack",
+            "rating": 4.8,
+            "price": 29.99,
+            "flashSale": false,
+            "category": "Kitchen Organization",
+            "reviewNumber": 312,
+            "brand": "DryMate",
+            "description": "Keep your kitchen organized with our sleek dish drying rack. With ample space for plates, bowls, and utensils, it promotes quick drying and prevents water buildup. Rust-resistant and easy to clean.",
+            "images": [
+                  "https://example.com/dishdryingrack-image1.jpg",
+                  "https://example.com/dishdryingrack-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Brush",
+            "rating": 4.1,
+            "price": 5.99,
+            "flashSale": false,
+            "category": "Dish Brush",
+            "reviewNumber": 76,
+            "brand": "BriteBrush",
+            "description": "Scrub away grime with ease using our sturdy dish brush. Its ergonomic handle and durable bristles ensure thorough cleaning without scratching your dishes. Dishwasher safe for easy maintenance.",
+            "images": [
+                  "https://m.media-amazon.com/images/I/61zuk7s-BUL._AC_SX679_.jpg",
+                  "https://m.media-amazon.com/images/I/71rBrgxByzL._AC_SX679_.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Soap Dispenser",
+            "rating": 4.6,
+            "price": 14.49,
+            "flashSale": true,
+            "discountPercentage": 15,
+            "category": "Kitchen Accessories",
+            "reviewNumber": 165,
+            "brand": "DispenseRight",
+            "description": "Say goodbye to messy soap bottles with our convenient dish soap dispenser. With a sleek design and easy-pump mechanism, it dispenses the perfect amount of soap every time. Holds up to 12 ounces of liquid soap.",
+            "images": [
+                  "https://cdn.shopify.com/s/files/1/0219/0619/4532/files/Bottle_Glass16_Mono_Amber_8cdafc9c-a99d-49c6-8391-9fcec9b89ec8.png?v=1699306535",
+                  "https://cdn.shopify.com/s/files/1/0219/0619/4532/products/4f602d44becf2e5458d970c91ca2615a96f66d7f_310fe4be-d1b6-4daa-9f84-04b5e7439452.png?v=1699306535"
+            ]
+      },
+      {
+            "productName": "Dishwashing Liquid",
+            "rating": 4.7,
+            "price": 9.99,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Dish Soap",
+            "reviewNumber": 198,
+            "brand": "FoamFresh",
+            "description": "Experience the power of foam with our concentrated dishwashing liquid. Just a small amount cuts through grease and leaves your dishes sparkling clean. Available in refreshing lemon and lavender scents.",
+            "images": [
+                  "https://naturesafemarine.com/cdn/shop/products/DWL3_94050450-cc4d-4db6-a229-471b1f89273a.jpg?v=1707727549&width=750",
+                  "https://naturesafemarine.com/cdn/shop/products/Universal1-2.jpg?v=1707727549&width=750"
+            ]
+      },
+      {
+            "productName": "Dish Washer Gel",
+            "rating": 4.0,
+            "price": 3.99,
+            "flashSale": false,
+            "category": "Dish Soap",
+            "reviewNumber": 112,
+            "brand": "ScrapeMaster",
+            "description": "Remove stubborn food residue with ease using our versatile dish scraper. Its durable blade and ergonomic handle make scraping effortless, while the compact size allows for easy storage.",
+            "images": [
+                  "https://mlcvmo0gntjk.i.optimole.com/cb:ICH-.67306/w:1080/h:1080/q:87/ig:avif/f:best/https://www.ecos.com/wp-content/uploads/2023/05/1_DishwasherGel_FreeClear_40oz_Front.png",
+                  "https://mlcvmo0gntjk.i.optimole.com/cb:ICH-.67306/w:1080/h:1080/q:87/ig:avif/f:best/https://www.ecos.com/wp-content/uploads/2023/05/2_DishwasherGel_FreeClear_40oz_Back.png"
+            ]
+      },
+      {
+            "productName": "Sink Caddy Organizer",
+            "rating": 4.5,
+            "price": 11.99,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Kitchen Organization",
+            "reviewNumber": 143,
+            "brand": "TidySink",
+            "description": "Keep your sink area clutter-free with our handy sink caddy organizer. With divided compartments for sponges, brushes, and soap, it maximizes space and keeps essentials within reach. Drainage holes prevent water buildup.",
+            "images": [
+                  "https://example.com/sinkcaddy-image1.jpg",
+                  "https://example.com/sinkcaddy-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Cloth Set",
+            "rating": 4.3,
+            "price": 7.99,
+            "flashSale": false,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 177,
+            "brand": "CleanCloth",
+            "description": "Upgrade your kitchen essentials with our soft and absorbent dish cloth set. Made from premium cotton, they effortlessly wipe away spills and stains. Machine washable for easy care.",
+            "images": [
+                  "https://example.com/dishclothset-image1.jpg",
+                  "https://example.com/dishclothset-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dishwashing Gloves with Scrubber",
+            "rating": 4.6,
+            "price": 10.99,
+            "flashSale": true,
+            "discountPercentage": 5,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 205,
+            "brand": "ScrubGuard",
+            "description": "Get the best of both worlds with our innovative dishwashing gloves with built-in scrubber. The durable silicone bristles scrub away tough messes, while the latex gloves protect your hands. Reusable and eco-friendly.",
+            "images": [
+                  "https://example.com/dishwashinggloves-scrubber-image1.jpg",
+                  "https://example.com/dishwashinggloves-scrubber-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Rack Mat",
+            "rating": 4.2,
+            "price": 13.49,
+            "flashSale": false,
+            "category": "Kitchen Organization",
+            "reviewNumber": 122,
+            "brand": "DryMat",
+            "description": "Protect your countertop from water damage with our absorbent dish rack mat. Its cushioned design provides a soft landing for wet dishes and utensils. Machine washable for hassle-free maintenance.",
+            "images": [
+                  "https://example.com/dishrackmat-image1.jpg",
+                  "https://example.com/dishrackmat-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Drying Mat",
+            "rating": 4.4,
+            "price": 8.99,
+            "flashSale": true,
+            "discountPercentage": 5,
+            "category": "Kitchen Organization",
+            "reviewNumber": 198,
+            "brand": "DryPad",
+            "description": "Say goodbye to soggy countertops with our quick-drying dish drying mat. Made from ultra-absorbent microfiber, it wicks away moisture and prevents water stains. Foldable for easy storage.",
+            "images": [
+                  "https://example.com/dishdryingmat-image1.jpg",
+                  "https://example.com/dishdryingmat-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dishwashing Gloves with Lining",
+            "rating": 4.3,
+            "price": 9.99,
+            "flashSale": false,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 156,
+            "brand": "SoftGuard",
+            "description": "Protect your hands from hot water and chemicals with our lined dishwashing gloves. The soft cotton lining provides added comfort, while the textured grip ensures a secure hold. Available in multiple sizes.",
+            "images": [
+                  "https://example.com/dishwashinggloves-lining-image1.jpg",
+                  "https://example.com/dishwashinggloves-lining-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dishwasher Rinse Aid",
+            "rating": 4.7,
+            "price": 7.99,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 176,
+            "brand": "ShineBright",
+            "description": "Achieve spotless dishes with our premium dishwasher rinse aid. Its advanced formula prevents water spots and streaks, leaving your dishes gleaming and glassware crystal clear. Suitable for all dishwasher brands.",
+            "images": [
+                  "https://example.com/dishwasherrinseaid-image1.jpg",
+                  "https://example.com/dishwasherrinseaid-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dishwashing Brush Set",
+            "rating": 4.1,
+            "price": 14.99,
+            "flashSale": false,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 134,
+            "brand": "BrushPro",
+            "description": "Tackle tough messes with our versatile dishwashing brush set. The set includes a dish brush, bottle brush, and scrub brush, each designed for specific cleaning tasks. Ergonomic handles provide a comfortable grip.",
+            "images": [
+                  "https://example.com/dishwashingbrushset-image1.jpg",
+                  "https://example.com/dishwashingbrushset-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dish Soap Refill",
+            "rating": 4.5,
+            "price": 6.99,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 212,
+            "brand": "RefillRight",
+            "description": "Reduce waste and save money with our concentrated dish soap refill. Just mix with water to create a fresh batch of soap, eliminating the need for single-use plastic bottles. Available in eco-friendly packaging.",
+            "images": [
+                  "https://example.com/dishsoaprefill-image1.jpg",
+                  "https://example.com/dishsoaprefill-image2.jpg"
+            ]
+      },
+      {
+            "productName": "Dishwashing Gloves with Long Cuff",
+            "rating": 4.4,
+            "price": 11.99,
+            "flashSale": false,
+            "category": "Cleaning Supplies",
+            "reviewNumber": 189,
+            "brand": "LongGuard",
+            "description": "Protect your arms from splashes and spills with our long cuff dishwashing gloves. The extended cuff provides extra coverage, while the textured grip ensures a secure hold. Perfect for deep cleaning tasks.",
+            "images": [
+                  "https://example.com/dishwashinggloves-cuff-image1.jpg",
+                  "https://example.com/dishwashinggloves-cuff-image2.jpg"
+            ]
+      }
+]

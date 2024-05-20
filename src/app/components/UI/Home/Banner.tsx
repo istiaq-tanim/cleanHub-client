@@ -31,7 +31,7 @@ const Banner = () => {
         <SwiperSlide>
           <Image src={img1} fill={true} alt="banner" className="object-fill" />
           <div className="absolute flex items-center justify-center w-full h-full left-0 top-0">
-            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2">
+            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2 lg:pl-0 pl-2">
               <h1 className="text-3xl lg:text-3xl font-serif">
                 Stop working. Spare some time for real life.
               </h1>
@@ -46,8 +46,8 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image fill={true} alt="banner" className="object-fill" src={img3} />
-          <div className="absolute flex items-center justify-center w-full h-full left-0 top-0">
-            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2">
+          <div className="absolute flex items-center justify-center w-full h-full left-0 top-0 ">
+            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2 lg:pl-0 pl-2">
               <h1 className="text-3xl lg:text-3xl font-serif">
                 Explore Our Top Picks
               </h1>
@@ -64,7 +64,7 @@ const Banner = () => {
         <SwiperSlide>
           <Image className="object-fill" fill={true} src={img2} alt="banner" />
           <div className="absolute flex items-center justify-center w-full h-full left-0 top-0">
-            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2">
+            <div className="w-10/12 max-w-7xl text-[#1d96b4] mx-auto space-y-2 lg:pl-0 pl-2">
               <h1 className="text-3xl lg:text-3xl font-serif">
                 Natural Cleaning Products
               </h1>

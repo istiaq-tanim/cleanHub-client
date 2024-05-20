@@ -5,7 +5,7 @@ import FilterByRatings from "./FilterByRatings";
 const Filter = () => {
   return (
     <>
-      <div className="col-span-2 space-y-4">
+      <div className="lg:col-span-2 col-span-4 space-y-4 pl-2">
         <FilterByPriceRange />
         <FilterByCategory />
         <FilterByRatings />

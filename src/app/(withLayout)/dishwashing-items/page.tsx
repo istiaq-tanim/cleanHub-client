@@ -2,31 +2,71 @@ import Filter from "@/app/components/UI/All-Products/Filter";
 import ProductList from "@/app/components/UI/All-Products/ProductList";
 import Container from "@/app/components/UI/Container";
 
-const ProductPage = async ({ searchParams }) => {
-  const { rating, price } = searchParams;
+type TSearchParams = {
+  rating: string;
+  price: string;
+  category: string;
+};
+
+const ProductPage = async ({
+  searchParams,
+}: {
+  searchParams: TSearchParams;
+}) => {
+  const { rating, price, category } = searchParams;
 
   let url;
   let refineRating;
   let refinePrice;
+  let refineCategory;
+
   const decodedRating = decodeURI(rating);
   const decodedPrice = decodeURI(price);
-  if (decodedRating === "undefined" && decodedPrice === "undefined") {
+  const decodeCategory = decodeURI(category);
+  if (
+    decodedRating === "undefined" &&
+    decodedPrice === "undefined" &&
+    decodeCategory === "undefined"
+  ) {
     refineRating = "";
     refinePrice = "";
+    refineCategory = "";
+
     url = "http://localhost:5000/dishWashing-items";
-  } else if (decodedRating !== "undefined" && decodedPrice !== "undefined") {
+  } else if (
+    decodedRating !== "undefined" &&
+    decodedPrice !== "undefined" &&
+    decodeCategory !== "undefined"
+  ) {
     refinePrice = decodedPrice;
     refineRating = decodedRating;
-    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}&price=${refinePrice}`;
+    refineCategory = decodeCategory;
+
+    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}&price=${refinePrice}&category=${refineCategory}`;
+  } else if (decodedPrice !== "undefined" && decodedRating !== "undefined") {
+    refinePrice = decodedPrice;
+    refineRating = decodedRating;
+    url = `http://localhost:5000/dishWashing-items?price=${refinePrice}&rating=${refineRating}`;
+  } else if (decodedPrice !== "undefined" && decodeCategory !== "undefined") {
+    refinePrice = decodedPrice;
+    refineCategory = decodeCategory;
+    url = `http://localhost:5000/dishWashing-items?price=${refinePrice}&category=${refineCategory}`;
+  } else if (decodedRating !== "undefined" && decodeCategory !== "undefined") {
+    refineRating = decodedRating;
+    refineCategory = decodeCategory;
+    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}&category=${refineCategory}`;
   } else if (decodedPrice !== "undefined") {
     refinePrice = decodedPrice;
     url = `http://localhost:5000/dishWashing-items?price=${refinePrice}`;
   } else if (decodedRating !== "undefined") {
     refineRating = decodedRating;
     url = `http://localhost:5000/dishWashing-items?rating=${refineRating}`;
+  } else if (decodeCategory !== "undefined") {
+    refineCategory = decodeCategory;
+    url = `http://localhost:5000/dishWashing-items?category=${refineCategory}`;
   }
 
-  const response = await fetch(url, {
+  const response = await fetch(url as string, {
     cache: "no-store",
   });
   const result = await response.json();

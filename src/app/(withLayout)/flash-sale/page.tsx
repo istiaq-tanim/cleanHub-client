@@ -11,7 +11,7 @@ const FlashSalePage = async () => {
   return (
     <Container>
       <CountDown></CountDown>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
         {result?.data.map((product: TProduct) => (
           <FlashCards key={product._id} product={product}></FlashCards>
         ))}

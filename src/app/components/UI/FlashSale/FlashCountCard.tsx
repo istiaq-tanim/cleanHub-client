@@ -5,7 +5,7 @@ import Rating from "../Rating";
 
 const FlashCountCard = ({ product }: { product: TProduct }) => {
   return (
-    <div className="transform transition duration-300 hover:scale-110 rounded-lg shadow-lg h-96 w-96 hover:shadow-xl bg-white">
+    <div className="transform transition duration-300 hover:scale-110 rounded-lg shadow-lg h-96 w-96 hover:shadow-xl bg-white mx-auto">
       <div className="relative bg-gradient-to-br from-rose-100 via-purple-200 to-purple-200 m-2  rounded-lg h-[60%]">
         <Image
           src={product.images[0]}

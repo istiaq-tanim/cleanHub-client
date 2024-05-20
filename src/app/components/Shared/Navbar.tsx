@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { HiMiniXMark } from "react-icons/hi2";
+import CustomLink from "../UI/CustomLink";
 import NavButton from "../UI/NavButton";
 
 const Navbar = () => {
@@ -18,31 +19,22 @@ const Navbar = () => {
 
         <ul className="items-center hidden space-x-8 lg:flex">
           <li>
-            <Link
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
-              href="/"
-            >
-              Home
-            </Link>
+            <CustomLink path="/">Home</CustomLink>
           </li>
           <li>
-            <Link
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
-              href="/flash-sale"
-            >
-              Flash Sale
-            </Link>
+            <CustomLink path="/flash-sale">Flash Sale</CustomLink>
           </li>
           <li>
-            <Link
-              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
-              href="/dishwashing-items"
-            >
-              Products
-            </Link>
+            <CustomLink path="/dishwashing-items">Products</CustomLink>
+          </li>
+          <li>
+            <CustomLink path="/dashboard">Dashboard</CustomLink>
+          </li>
+          <li>
+            <CustomLink path="/category">Category</CustomLink>
           </li>
         </ul>
-        {/* Mobile Navbar Section */}
+
         <div className="lg:hidden">
           <NavButton onHandle={() => setIsMenuOpen(true)}>
             <FaBars className="w-5 text-gray-600" />

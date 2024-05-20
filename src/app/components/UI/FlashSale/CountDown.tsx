@@ -28,7 +28,7 @@ const CountDown = () => {
   const seconds: number = remainingTime % 60;
 
   return (
-    <div className="flex items-center gap-2 mt-20 my-10 px-5">
+    <div className="flex items-center justify-center gap-2 mt-20 my-10 px-5">
       <p className="text-xl">Time remaining </p>
       <div className="grid grid-flow-col gap-5 text-center">
         <div className="flex gap-1 justify-center items-center bg-blue-400 text-neutral-content p-2">

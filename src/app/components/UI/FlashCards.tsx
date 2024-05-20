@@ -3,7 +3,7 @@ import { discountPrice } from "@/app/utils/utils";
 import Image from "next/image";
 const FlashCards = ({ product }: { product: TProduct }) => {
   return (
-    <div className="relative group duration-500 cursor-pointer group overflow-hidden  text-gray-50 h-96 w-96 shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]  rounded-2xl hover:duration-700">
+    <div className="relative group duration-500 cursor-pointer group overflow-hidden  text-gray-50 h-96 w-96 mx-auto shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]  rounded-2xl hover:duration-700">
       <div className="w-96 h-96  text-gray-800">
         <div className="flex flex-row  justify-between">
           <p className="fill-current z-10 bg-[#3D3D3D] text-white stroke-current text-xs px-3 m-5 py-2 rounded-lg">

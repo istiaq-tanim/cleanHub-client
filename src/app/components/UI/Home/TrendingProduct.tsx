@@ -12,8 +12,8 @@ const TrendingProduct = async () => {
   const result = await response.json();
   return (
     <Container>
-      <div className="flex justify-between items-center mt-20">
-        <div>
+      <div className="flex lg:flex-row flex-col justify-between items-center mt-20">
+        <div className="text-center lg:text-left">
           <h1 className="text-2xl text-[#3D3D3D] font-bold">
             Most Popular Product
           </h1>
@@ -23,12 +23,12 @@ const TrendingProduct = async () => {
             cleaning power and reliability.{" "}
           </p>
         </div>
-        <button className="bg-[#5EBED6] hover:bg-[#1d96b4] rounded-2xl text-white font-large py-2 px-4  transition duration-300 ease-in-out flex gap-1 justify-center items-center">
+        <button className="bg-[#5EBED6] hover:bg-[#1d96b4] rounded-2xl text-white font-large py-2 mt-2 px-4  transition duration-300 ease-in-out flex gap-1 justify-center items-center">
           <span>View All</span>
           <FaAngleRight size={22} />
         </button>
       </div>
-      <div className="my-10 grid grid-cols-3 gap-10">
+      <div className="my-10 grid lg:grid-cols-3 grid-cols-1 gap-10">
         {result?.data.map((product: TProduct) => (
           <FlashCountCard key={product._id} product={product}></FlashCountCard>
         ))}

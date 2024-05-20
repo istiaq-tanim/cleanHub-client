@@ -1,8 +1,10 @@
+import AllProducts from "../components/UI/Dashboard/AllProducts";
+
 const DashBoardPage = () => {
   return (
-    <div>
-      <h3>Dashboard</h3>
-    </div>
+    <>
+      <AllProducts></AllProducts>
+    </>
   );
 };
 

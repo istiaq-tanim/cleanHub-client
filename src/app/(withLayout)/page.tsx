@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Banner from "../components/UI/Home/Banner";
 import Category from "../components/UI/Home/Category";
 import FlashSale from "../components/UI/Home/FlashSale";
@@ -8,7 +9,9 @@ const HomePage = () => {
     <div>
       <Banner></Banner>
       <FlashSale></FlashSale>
-      <Category></Category>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Category></Category>
+      </Suspense>
       <TrendingProduct></TrendingProduct>
     </div>
   );

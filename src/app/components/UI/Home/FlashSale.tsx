@@ -13,7 +13,7 @@ const FlashSale = async () => {
   const result = await response.json();
   return (
     <Container>
-      <div className="flex justify-between my-20">
+      <div className="flex justify-between my-20 px-5">
         <h3 className="text-2xl">Flash Sale</h3>
         <Link href="/flash-sale">
           <button className="bg-[#5EBED6] hover:bg-[#1d96b4] rounded-2xl text-white font-large py-2 px-4  transition duration-300 ease-in-out flex gap-1 justify-center items-center">
@@ -22,7 +22,7 @@ const FlashSale = async () => {
           </button>
         </Link>
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
         {result?.data.slice(0, 6).map((product: TProduct) => (
           <FlashCards key={product._id} product={product}></FlashCards>
         ))}

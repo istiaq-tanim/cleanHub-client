@@ -16,6 +16,7 @@
   - HTML5
   - CSS3
   - JavaScript
+  - TailWind
   - React.js
   - TypeScript
   - Next.js

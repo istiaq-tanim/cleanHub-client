@@ -97,12 +97,12 @@ const FilterByCategory = () => {
           />
           Dish Gloves
         </label>
-        <label htmlFor="sponges">
+        <label htmlFor="sponge">
           <input
             type="checkbox"
-            checked={category.includes("sponges")}
-            name="sponges"
-            id="sponges"
+            checked={category.includes("sponge")}
+            name="sponge"
+            id="sponge"
             onChange={handleChange}
           />
           Dish Sponges

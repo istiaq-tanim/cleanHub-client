@@ -19,8 +19,7 @@ const ProductDetailsPage = async ({
 }) => {
   const { productId } = params;
   const response = await fetch(
-    `https://cleaning-supply-server.vercel.app/dishWashing-items/${productId},
-    `
+    `https://cleaning-supply-server.vercel.app/dishWashing-items/${productId}`
   );
   const result = await response.json();
 

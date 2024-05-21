@@ -1,18 +1,3 @@
-## Installation:
-
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Run the server using `npm run dev`.
-
-## Github Repo (Github):
-
-- For Client(Frontend): https://github.com/istiaq-tanim/ReliefRover-client
-- For Server(Backed): https://github.com/istiaq-tanim/ReliefRover-server
-
-## Live Link :
-
-- Live Link: https://relief-rover-client.vercel.app/
-
 # CleanSweeper
 
 ## Features

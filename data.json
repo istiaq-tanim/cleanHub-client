@@ -2,10 +2,10 @@
       {
             "productName": "Eco-Friendly Dish Soap",
             "rating": 4.5,
-            "price": 12.99,
+            "price": 15,
             "flashSale": true,
             "discountPercentage": 10,
-            "category": " Dish Soap",
+            "category": "Dish Soap",
             "reviewNumber": 256,
             "brand": "GreenClean",
             "description": "Our eco-friendly dish soap is tough on grease and gentle on the environment. Made with plant-based ingredients, it leaves your dishes sparkling clean without any harmful chemicals.",
@@ -18,7 +18,7 @@
       {
             "productName": "Dishwasher Tablets",
             "rating": 4.2,
-            "price": 19.99,
+            "price": 60,
             "flashSale": false,
             "category": "Dishwasher Detergent",
             "reviewNumber": 187,
@@ -31,13 +31,13 @@
       },
       {
             "productName": "Sponge Scrubber",
-            "rating": 4.0,
-            "price": 6.49,
+            "rating": 2,
+            "price": 10,
             "flashSale": true,
-            "discountPercentage": 5,
+            "discountPercentage": 10,
             "category": "Dish Brush",
             "reviewNumber": 134,
-            "brand": "SuperScrub",
+            "brand": "Sponge",
             "description": "Say goodbye to stuck-on food with our durable sponge scrubber. Its abrasive surface tackles tough messes while the soft side gently cleans delicate surfaces. Ergonomically designed for comfortable grip.",
             "images": [
                   "https://i.ibb.co/pxgyzfR/077-A6112-Edit-eb3c63b5-f86b-4a7b-b3f7-f74d9817f13d-900x.webp",
@@ -45,23 +45,53 @@
             ]
       },
       {
-            "productName": "Dish Drying Rack",
-            "rating": 4.8,
-            "price": 29.99,
+            "productName": "Branch Basics Dishwasher Tablets",
+            "rating": 4,
+            "price": 16,
             "flashSale": false,
-            "category": "Kitchen Organization",
-            "reviewNumber": 312,
-            "brand": "DryMate",
-            "description": "Keep your kitchen organized with our sleek dish drying rack. With ample space for plates, bowls, and utensils, it promotes quick drying and prevents water buildup. Rust-resistant and easy to clean.",
+            "category": "Dishwasher Detergent",
+            "reviewNumber": 187,
+            "brand": "Branch Basics",
+            "description": "Make dishwashing a breeze with our powerful dishwasher tablets. Each tablet dissolves stubborn stains and leaves your dishes spotless and shiny. Our Dishwasher Tablets borrow hardworking ingredients from The Concentrate and Oxygen Boost to provide a powerful clean without the use of any harmful chemicals, so you can eat and drink worry-free.",
             "images": [
-                  "https://example.com/dishdryingrack-image1.jpg",
-                  "https://example.com/dishdryingrack-image2.jpg"
+                  "https://branchbasics.com/cdn/shop/files/DishwasherTablets_1060x.jpg?v=1707429601",
+                  "https://branchbasics.com/cdn/shop/files/DishTab_Hero_01_1060x.jpg?v=1707429601"
+            ]
+      },
+      {
+            "productName": "Frasier Fir Dishwashing Liquid",
+            "rating": 4.5,
+            "price": 55,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Dish Liquid",
+            "reviewNumber": 256,
+            "brand": "GreenClean",
+            "description": "Fill your sink with moisturizing bubbles enriched with the mountain fresh fragrance of Frasier Fir. Quickly wash away grease with this biodegradable formula. ",
+            "images": [
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dw4a6c1c88/images/products/Dishwashing%20Liquid/thymes-frasier-fir-heritage-dishwashing-liquid-0520723007.jpg?sw=2000&sh=2000",
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dwc4e24620/images/products/Dishwashing%20Liquid/Alt%20Images/ffr-heritage-dishwashing-liquid-2.jpg?sw=2000&sh=2000",
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dw1039983e/images/products/Dishwashing%20Liquid/Alt%20Images/ffr-heritage-dishwashing-liquid-1.jpg?sw=2000&sh=2000"
+            ]
+      },
+      {
+            "productName": "Defunkify Dishwasher Detergent ",
+            "rating": 4.2,
+            "price": 30,
+            "flashSale": false,
+            "category": "Dishwasher Detergent",
+            "reviewNumber": 187,
+            "brand": "Defunkify",
+            "description": "Make dishwashing a breeze with our powerful dishwasher tablets. Each tablet dissolves stubborn stains and leaves your dishes spotless and shiny. Our Dishwasher Tablets borrow hardworking ingredients from The Concentrate and Oxygen Boost to provide a powerful clean without the use of any harmful chemicals, so you can eat and drink worry-free.",
+            "images": [
+                  "https://defunkify.com/cdn/shop/products/2048x2048_2Pack_DefunkifyDetergent_WhiteBackground_1800x1800.png?v=1686821200",
+                  "https://defunkify.com/cdn/shop/products/Defunkify-Detergent-FrontJPG_FullResolution_1_2_rs_1800x1800.jpg?v=1686821202"
             ]
       },
       {
             "productName": "Dish Brush",
             "rating": 4.1,
-            "price": 5.99,
+            "price": 10,
             "flashSale": false,
             "category": "Dish Brush",
             "reviewNumber": 76,
@@ -74,11 +104,11 @@
       },
       {
             "productName": "Dish Soap Dispenser",
-            "rating": 4.6,
-            "price": 14.49,
+            "rating": 3,
+            "price": 20,
             "flashSale": true,
-            "discountPercentage": 15,
-            "category": "Kitchen Accessories",
+            "discountPercentage": 20,
+            "category": "Dish Soap",
             "reviewNumber": 165,
             "brand": "DispenseRight",
             "description": "Say goodbye to messy soap bottles with our convenient dish soap dispenser. With a sleek design and easy-pump mechanism, it dispenses the perfect amount of soap every time. Holds up to 12 ounces of liquid soap.",
@@ -88,24 +118,40 @@
             ]
       },
       {
-            "productName": "Dishwashing Liquid",
-            "rating": 4.7,
-            "price": 9.99,
+            "productName": "Eucalyptus Dishwashing Liquid",
+            "rating": 3.3,
+            "price": 30,
             "flashSale": true,
             "discountPercentage": 10,
-            "category": "Dish Soap",
+            "category": "Dish Liquid",
             "reviewNumber": 198,
-            "brand": "FoamFresh",
-            "description": "Experience the power of foam with our concentrated dishwashing liquid. Just a small amount cuts through grease and leaves your dishes sparkling clean. Available in refreshing lemon and lavender scents.",
+            "brand": "Eucalyptus",
+            "description": "Swish dishes clean with Eucalyptus Dishwashing Liquid. You'll enjoy this home cleaning routine with the invigorating scent of Eucalyptus and this hard-working formula",
             "images": [
-                  "https://naturesafemarine.com/cdn/shop/products/DWL3_94050450-cc4d-4db6-a229-471b1f89273a.jpg?v=1707727549&width=750",
-                  "https://naturesafemarine.com/cdn/shop/products/Universal1-2.jpg?v=1707727549&width=750"
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dwa8837c62/images/products/Dishwashing%20Liquid/thymes-eucalyptus-dishwashing-liquid-TH02704707207-1.jpg?sw=2000&sh=2000",
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dwe39a77a3/images/products/Dishwashing%20Liquid/Alt%20Images/2-eucalyptus-dishwashing-liquid.jpg?sw=2000&sh=2000",
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dw09b3cfbf/images/products/Dishwashing%20Liquid/Alt%20Images/3-eucalyptus-dishwashing-liquid.jpg?sw=2000&sh=2000"
+            ]
+      },
+      {
+            "productName": "Magnolia Willow Dishwashing Liquid",
+            "rating": 4,
+            "price": 25,
+            "flashSale": true,
+            "discountPercentage": 15,
+            "category": "Dish Liquid",
+            "reviewNumber": 198,
+            "brand": "Magnolia",
+            "description": "Effectively scrub dishes clean with naturally derived cleansing agents and soothe hands with comfrey while this airy fragrance transforms your home into a sunlit garden.",
+            "images": [
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dwabe81c5a/images/products/Dishwashing%20Liquid/thymes-magnolia-willow-dishwashing-liquid-0730720607.jpg?sw=2000&sh=2000",
+                  "https://www.thymes.com/dw/image/v2/BGPM_PRD/on/demandware.static/-/Sites-products-thymes/default/dwccedcc68/images/products/Dishwashing%20Liquid/Alt%20Images/Thymes-MGw-Dishwashing%20Liquid-Web%20Alt%20Image-1.jpg?sw=2000&sh=2000"
             ]
       },
       {
             "productName": "Dish Washer Gel",
-            "rating": 4.0,
-            "price": 3.99,
+            "rating": 4,
+            "price": 55,
             "flashSale": false,
             "category": "Dish Soap",
             "reviewNumber": 112,
@@ -117,148 +163,116 @@
             ]
       },
       {
-            "productName": "Sink Caddy Organizer",
-            "rating": 4.5,
-            "price": 11.99,
-            "flashSale": true,
-            "discountPercentage": 10,
-            "category": "Kitchen Organization",
-            "reviewNumber": 143,
-            "brand": "TidySink",
-            "description": "Keep your sink area clutter-free with our handy sink caddy organizer. With divided compartments for sponges, brushes, and soap, it maximizes space and keeps essentials within reach. Drainage holes prevent water buildup.",
-            "images": [
-                  "https://example.com/sinkcaddy-image1.jpg",
-                  "https://example.com/sinkcaddy-image2.jpg"
-            ]
-      },
-      {
-            "productName": "Dish Cloth Set",
-            "rating": 4.3,
-            "price": 7.99,
-            "flashSale": false,
-            "category": "Cleaning Supplies",
-            "reviewNumber": 177,
-            "brand": "CleanCloth",
-            "description": "Upgrade your kitchen essentials with our soft and absorbent dish cloth set. Made from premium cotton, they effortlessly wipe away spills and stains. Machine washable for easy care.",
-            "images": [
-                  "https://example.com/dishclothset-image1.jpg",
-                  "https://example.com/dishclothset-image2.jpg"
-            ]
-      },
-      {
             "productName": "Dishwashing Gloves with Scrubber",
             "rating": 4.6,
-            "price": 10.99,
+            "price": 10,
             "flashSale": true,
             "discountPercentage": 5,
-            "category": "Cleaning Supplies",
+            "category": "Dish gloves",
             "reviewNumber": 205,
             "brand": "ScrubGuard",
             "description": "Get the best of both worlds with our innovative dishwashing gloves with built-in scrubber. The durable silicone bristles scrub away tough messes, while the latex gloves protect your hands. Reusable and eco-friendly.",
             "images": [
-                  "https://example.com/dishwashinggloves-scrubber-image1.jpg",
-                  "https://example.com/dishwashinggloves-scrubber-image2.jpg"
+                  "https://m.media-amazon.com/images/I/71vFN1vZSlL._AC_SX569_.jpg"
             ]
       },
       {
-            "productName": "Dish Rack Mat",
-            "rating": 4.2,
-            "price": 13.49,
-            "flashSale": false,
-            "category": "Kitchen Organization",
-            "reviewNumber": 122,
-            "brand": "DryMat",
-            "description": "Protect your countertop from water damage with our absorbent dish rack mat. Its cushioned design provides a soft landing for wet dishes and utensils. Machine washable for hassle-free maintenance.",
-            "images": [
-                  "https://example.com/dishrackmat-image1.jpg",
-                  "https://example.com/dishrackmat-image2.jpg"
-            ]
-      },
-      {
-            "productName": "Dish Drying Mat",
-            "rating": 4.4,
-            "price": 8.99,
+            "productName": "Attitude Dishwashing Liquid",
+            "rating": 3.2,
+            "price": 40,
             "flashSale": true,
-            "discountPercentage": 5,
-            "category": "Kitchen Organization",
+            "discountPercentage": 10,
+            "category": "Dish Liquid",
             "reviewNumber": 198,
-            "brand": "DryPad",
-            "description": "Say goodbye to soggy countertops with our quick-drying dish drying mat. Made from ultra-absorbent microfiber, it wicks away moisture and prevents water stains. Foldable for easy storage.",
+            "brand": "Attitude",
+            "description": "Packed with degreasing agents, this dishwashing liquid will keep your kitchen sink and dishes looking spick and span. Its unique formula is made from natural ingredients and infused with essential oils to produce a foaming action that’s tough on grease but gentle on skin",
             "images": [
-                  "https://example.com/dishdryingmat-image1.jpg",
-                  "https://example.com/dishdryingmat-image2.jpg"
+                  "https://cdn.shopify.com/s/files/1/0785/4509/2921/files/HE-ALU-473mL-19376_dishwashing_orange_sage_FT.jpg?v=1702049266&width=2000&height=2000&crop=center"
             ]
       },
       {
             "productName": "Dishwashing Gloves with Lining",
             "rating": 4.3,
-            "price": 9.99,
+            "price": 20,
             "flashSale": false,
-            "category": "Cleaning Supplies",
+            "category": "Dish gloves",
             "reviewNumber": 156,
             "brand": "SoftGuard",
             "description": "Protect your hands from hot water and chemicals with our lined dishwashing gloves. The soft cotton lining provides added comfort, while the textured grip ensures a secure hold. Available in multiple sizes.",
             "images": [
-                  "https://example.com/dishwashinggloves-lining-image1.jpg",
-                  "https://example.com/dishwashinggloves-lining-image2.jpg"
+                  "https://5.imimg.com/data5/SELLER/Default/2024/1/378433192/QB/TP/SY/64023267/reusable-rubber-latex-pvc-flock-lined-elbow-length-hand-gloves-cleaning-gloves-4934-500x500.jpg"
             ]
       },
       {
-            "productName": "Dishwasher Rinse Aid",
-            "rating": 4.7,
-            "price": 7.99,
+            "productName": "Baby Dish Soap",
+            "rating": 3,
+            "price": 30,
             "flashSale": true,
             "discountPercentage": 10,
-            "category": "Cleaning Supplies",
-            "reviewNumber": 176,
-            "brand": "ShineBright",
-            "description": "Achieve spotless dishes with our premium dishwasher rinse aid. Its advanced formula prevents water spots and streaks, leaving your dishes gleaming and glassware crystal clear. Suitable for all dishwasher brands.",
+            "category": "Dish Soap",
+            "reviewNumber": 198,
+            "brand": "Attitude",
+            "description": "Packed with degreasing agents, this dishwashing liquid will keep your kitchen sink and dishes looking spick and span. Its unique formula is made from natural ingredients and infused with essential oils to produce a foaming action that’s tough on grease but gentle on skin",
             "images": [
-                  "https://example.com/dishwasherrinseaid-image1.jpg",
-                  "https://example.com/dishwasherrinseaid-image2.jpg"
+                  "https://cdn.shopify.com/s/files/1/0785/4509/2921/files/ATTITUDE-Nature_-dishwashing-liquid-sweet-lullaby-hypoallergenic-13177_fb4fd9c4-811b-4968-aa6a-9afa95403ada.jpg?v=1709151476&width=2000&height=2000&crop=center",
+                  "https://cdn.shopify.com/s/files/1/0785/4509/2921/files/NP_DishwashingBaby_Lifestyle_700ml.jpg?v=1702037765&width=2000&height=2000&crop=center"
             ]
       },
       {
-            "productName": "Dishwashing Brush Set",
+            "productName": "9 Elements Dish Soap",
+            "rating": 4.2,
+            "price": 30,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Dish Soap",
+            "reviewNumber": 198,
+            "brand": "9 Elements",
+            "description": "Packed with degreasing agents, this dishwashing liquid will keep your kitchen sink and dishes looking spick and span. Its unique formula is made from natural ingredients and infused with essential oils to produce a foaming action that’s tough on grease but gentle on skin",
+            "images": [
+                  "https://i5.walmartimages.com/seo/9-Elements-Dishwashing-Liquid-Dish-Soap-Lemon-Scent-16-Fluid-Ounce_c793e743-d19e-4cd5-891d-7af05d945d20.8439bfa11164be805dc7e40d0339e8af.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+                  "https://i5.walmartimages.com/asr/7bb7e78e-aba8-42e3-981b-c59558800ee9.b497b55d4d39856e4f852b010fa12d82.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+            ]
+      },
+      {
+            "productName": "Dishwashing Brush",
             "rating": 4.1,
-            "price": 14.99,
+            "price": 15,
             "flashSale": false,
-            "category": "Cleaning Supplies",
+            "category": "Dish Brush",
             "reviewNumber": 134,
-            "brand": "BrushPro",
-            "description": "Tackle tough messes with our versatile dishwashing brush set. The set includes a dish brush, bottle brush, and scrub brush, each designed for specific cleaning tasks. Ergonomic handles provide a comfortable grip.",
+            "brand": "brush",
+            "description": "Love! Kuchenprofi Dish Washing Brush is a zero waste alternative to the typical plastic dish washers. Made of natural agave bristles, it is a zero-plastic kitchen brush that actually works. designed for specific cleaning tasks. Ergonomic handles provide a comfortable grip.",
             "images": [
-                  "https://example.com/dishwashingbrushset-image1.jpg",
-                  "https://example.com/dishwashingbrushset-image2.jpg"
-            ]
-      },
-      {
-            "productName": "Dish Soap Refill",
-            "rating": 4.5,
-            "price": 6.99,
-            "flashSale": true,
-            "discountPercentage": 10,
-            "category": "Cleaning Supplies",
-            "reviewNumber": 212,
-            "brand": "RefillRight",
-            "description": "Reduce waste and save money with our concentrated dish soap refill. Just mix with water to create a fresh batch of soap, eliminating the need for single-use plastic bottles. Available in eco-friendly packaging.",
-            "images": [
-                  "https://example.com/dishsoaprefill-image1.jpg",
-                  "https://example.com/dishsoaprefill-image2.jpg"
+                  "https://images.squarespace-cdn.com/content/v1/5e2608e21195f14156e7cece/1583888391605-M66MTNCIVPSFGMRZXQUR/Kuchenprofi+Dish+brush+Home.jpg?format=1000w",
+                  "https://images.squarespace-cdn.com/content/v1/5e2608e21195f14156e7cece/1583888423155-T0MTR6X9O127BHXXL1I2/Kuchenprofi+Dish+brush.jpg"
             ]
       },
       {
             "productName": "Dishwashing Gloves with Long Cuff",
             "rating": 4.4,
-            "price": 11.99,
+            "price": 20,
             "flashSale": false,
-            "category": "Cleaning Supplies",
+            "category": "Dish gloves",
             "reviewNumber": 189,
             "brand": "LongGuard",
             "description": "Protect your arms from splashes and spills with our long cuff dishwashing gloves. The extended cuff provides extra coverage, while the textured grip ensures a secure hold. Perfect for deep cleaning tasks.",
             "images": [
-                  "https://example.com/dishwashinggloves-cuff-image1.jpg",
-                  "https://example.com/dishwashinggloves-cuff-image2.jpg"
+                  "https://m.media-amazon.com/images/I/61BwIkcnYAL._AC_SX679_PIbundle-3,TopRight,0,0_SH20_.jpg"
+            ]
+      },
+      {
+            "productName": "Full Circle Dish Soap",
+            "rating": 3.8,
+            "price": 30,
+            "flashSale": true,
+            "discountPercentage": 10,
+            "category": "Dish Soap",
+            "reviewNumber": 198,
+            "brand": "Full Circle",
+            "description": "Packed with degreasing agents, this dishwashing liquid will keep your kitchen sink and dishes looking spick and span. Its unique formula is made from natural ingredients and infused with essential oils to produce a foaming action that’s tough on grease but gentle on skin",
+            "images": [
+                  "https://topco.sirv.com/Products/FX/036800443587CSMA042000/Full-Circle-Market-Lavender-Scent-Dish-Soap-25-oz_1.jpg?scale.option=fill&w=0&h=900",
+                  "https://topco.sirv.com/Products/FX/036800443587CSMA042000/Full-Circle-Market-Lavender-Scent-Dish-Soap-25-oz_4.jpg?scale.option=fill&w=0&h=700"
             ]
       }
 ]

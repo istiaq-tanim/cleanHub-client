@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="relative flex items-center justify-between">
         <Link href="/" className="inline-flex items-center">
           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
-            nextPage
+            clean<span className="text-blue-500">Sweep</span>
           </span>
         </Link>
 
@@ -45,8 +45,8 @@ const Navbar = () => {
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <Link href="/" className="inline-flex items-center">
-                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        nextPage
+                      <span className="text-xl font-bold tracking-wide text-gray-800">
+                        clean<span className="text-blue-500">Sweep</span>
                       </span>
                     </Link>
                   </div>
@@ -58,29 +58,25 @@ const Navbar = () => {
                     </NavButton>
                   </div>
                 </div>
-                {/* Mobile Nav Items Section */}
+
                 <nav>
                   <ul className="space-y-4">
                     <li>
-                      <Link href="/" className="default">
-                        Home
-                      </Link>
+                      <CustomLink path="/">Home</CustomLink>
                     </li>
                     <li>
-                      <Link
-                        href="/flash-sale"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
-                      >
-                        Flash Sale
-                      </Link>
+                      <CustomLink path="/flash-sale">Flash Sale</CustomLink>
                     </li>
                     <li>
-                      <Link
-                        href="/dishwashing-items"
-                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
-                      >
+                      <CustomLink path="/dishwashing-items">
                         Products
-                      </Link>
+                      </CustomLink>
+                    </li>
+                    <li>
+                      <CustomLink path="/dashboard">Dashboard</CustomLink>
+                    </li>
+                    <li>
+                      <CustomLink path="/category">Category</CustomLink>
                     </li>
                   </ul>
                 </nav>

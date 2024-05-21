@@ -1,5 +1,4 @@
 import { TProduct } from "@/app/types/types";
-import { discountPrice } from "@/app/utils/utils";
 import Image from "next/image";
 import Rating from "../Rating";
 
@@ -20,8 +19,7 @@ const FlashCountCard = ({ product }: { product: TProduct }) => {
           {product?.productName}
         </span>
         <p className="text-neutral-800">
-          <span className="line-through">${product?.price}</span>{" "}
-          {discountPrice(product?.price, product?.discountPercentage)}
+          <span className="text-xl fint-semibold">${product?.price}</span>{" "}
         </p>
         <div className="flex items-center space-x-1 mb-5">
           <Rating value={product?.rating} />

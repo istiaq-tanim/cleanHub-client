@@ -1,10 +1,12 @@
+import Link from "next/link";
+import { FaAngleRight } from "react-icons/fa";
 import Container from "../Container";
 import CustomCategory from "./CustomCategory";
 
 const Category = () => {
   return (
     <Container>
-      <div className="flex flex-col justify-center items-center px-2">
+      <div className="flex flex-col justify-center items-center px-2 my-5">
         <h1 className="text-[#3D3D3D] mt-20 text-3xl">Top Categories</h1>
         <p className="text-[#666666] max-w-[80ch] mt-5 mb-10 text-center">
           Discover a range of top products that ensure your dishes come out
@@ -155,6 +157,13 @@ const Category = () => {
           </CustomCategory>
         </div>
       </div>
+
+      <Link className="flex justify-center items-center mt-10" href="/category">
+        <button className="bg-[#5EBED6] hover:bg-[#1d96b4] rounded-2xl text-white font-large py-2 px-4 transition duration-300 ease-in-out flex gap-1 justify-center items-center">
+          <span>View More</span>
+          <FaAngleRight size={22} />
+        </button>
+      </Link>
     </Container>
   );
 };

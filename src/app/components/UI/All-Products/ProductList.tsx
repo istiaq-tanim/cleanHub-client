@@ -1,4 +1,5 @@
 import { TProduct } from "@/app/types/types";
+import NoProducts from "./NoProduct";
 import ProductCard from "./ProductCard";
 
 const ProductList = ({ products }: { products: TProduct[] }) => {
@@ -8,9 +9,13 @@ const ProductList = ({ products }: { products: TProduct[] }) => {
         Our Collection of Product
       </h3>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
-        {products.map((product) => (
-          <ProductCard key={product._id} product={product}></ProductCard>
-        ))}
+        {products.length > 0 ? (
+          products.map((product) => (
+            <ProductCard key={product._id} product={product} />
+          ))
+        ) : (
+          <NoProducts></NoProducts>
+        )}
       </div>
     </div>
   );

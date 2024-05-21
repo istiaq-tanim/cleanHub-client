@@ -6,7 +6,7 @@ import Rating from "../Rating";
 const ProductDetails = ({ product }: { product: TProduct }) => {
   return (
     <div>
-      <div className="container grid grid-cols-2 gap-6 mt-10">
+      <div className="container grid lg:grid-cols-2 gap-6 mt-10">
         <div className="relative h-96">
           <Image
             src={product?.images[0]}
@@ -16,7 +16,7 @@ const ProductDetails = ({ product }: { product: TProduct }) => {
           />
         </div>
 
-        <div>
+        <div className="pl-5 lg:pl-1">
           <h2 className="text-3xl font-medium uppercase mb-2">
             {product?.productName}
           </h2>
@@ -76,7 +76,7 @@ const ProductDetails = ({ product }: { product: TProduct }) => {
         </div>
       </div>
 
-      <div className="container pb-16">
+      <div className="container pb-16 pl-5 lg:pl-1">
         <h3 className="border-b border-gray-200 font-roboto text-gray-800 pb-3 font-medium">
           Product details
         </h3>

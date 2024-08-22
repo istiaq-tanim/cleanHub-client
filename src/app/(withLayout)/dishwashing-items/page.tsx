@@ -32,7 +32,7 @@ const ProductPage = async ({
     refinePrice = "";
     refineCategory = "";
 
-    url = "https://cleaning-supply-server.vercel.app/dishWashing-items";
+    url = "http://localhost:5000/dishWashing-items";
   } else if (
     decodedRating !== "undefined" &&
     decodedPrice !== "undefined" &&
@@ -42,28 +42,28 @@ const ProductPage = async ({
     refineRating = decodedRating;
     refineCategory = decodeCategory;
 
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?rating=${refineRating}&price=${refinePrice}&category=${refineCategory}`;
+    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}&price=${refinePrice}&category=${refineCategory}`;
   } else if (decodedPrice !== "undefined" && decodedRating !== "undefined") {
     refinePrice = decodedPrice;
     refineRating = decodedRating;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?price=${refinePrice}&rating=${refineRating}`;
+    url = `http://localhost:5000/dishWashing-items?price=${refinePrice}&rating=${refineRating}`;
   } else if (decodedPrice !== "undefined" && decodeCategory !== "undefined") {
     refinePrice = decodedPrice;
     refineCategory = decodeCategory;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?price=${refinePrice}&category=${refineCategory}`;
+    url = `http://localhost:5000/dishWashing-items?price=${refinePrice}&category=${refineCategory}`;
   } else if (decodedRating !== "undefined" && decodeCategory !== "undefined") {
     refineRating = decodedRating;
     refineCategory = decodeCategory;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?rating=${refineRating}&category=${refineCategory}`;
+    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}&category=${refineCategory}`;
   } else if (decodedPrice !== "undefined") {
     refinePrice = decodedPrice;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?price=${refinePrice}`;
+    url = `http://localhost:5000/dishWashing-items?price=${refinePrice}`;
   } else if (decodedRating !== "undefined") {
     refineRating = decodedRating;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?rating=${refineRating}`;
+    url = `http://localhost:5000/dishWashing-items?rating=${refineRating}`;
   } else if (decodeCategory !== "undefined") {
     refineCategory = decodeCategory;
-    url = `https://cleaning-supply-server.vercel.app/dishWashing-items?category=${refineCategory}`;
+    url = `http://localhost:5000/dishWashing-items?category=${refineCategory}`;
   }
 
   const response = await fetch(url as string, {

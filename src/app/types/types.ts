@@ -10,5 +10,17 @@ export type TProduct = {
       category: string,
       images: string[]
       created_at: string,
-      discountPercentage: number
+      discountPercentage: number,
+      features: string[]
 }
+
+export type TUser = {
+      email: string;
+      name: string;
+      password: string;
+};
+
+export type TFormValues = {
+      email: string;
+      password: string;
+};

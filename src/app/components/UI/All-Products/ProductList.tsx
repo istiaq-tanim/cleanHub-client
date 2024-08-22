@@ -8,7 +8,7 @@ const ProductList = ({ products }: { products: TProduct[] }) => {
       <h3 className="text-[#3D3D3D] font-semibold pl-5 text-2xl mb-5">
         Our Collection of Product
       </h3>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-12">
         {products.length > 0 ? (
           products.map((product) => (
             <ProductCard key={product._id} product={product} />

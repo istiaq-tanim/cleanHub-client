@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import Loader from "../components/Shared/Loader";
+
 import Banner from "../components/UI/Home/Banner";
 import Category from "../components/UI/Home/Category";
 import FlashSale from "../components/UI/Home/FlashSale";

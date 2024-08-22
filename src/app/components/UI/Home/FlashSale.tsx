@@ -2,17 +2,14 @@ import { TProduct } from "@/app/types/types";
 import Link from "next/link";
 import { FaAngleRight } from "react-icons/fa";
 import Container from "../Container";
-import FlashCards from "../FlashCards";
+import FlashCard from "../FlashCard";
 
 const FlashSale = async () => {
-  const response = await fetch(
-    "https://cleaning-supply-server.vercel.app/flash-sale",
-    {
-      next: {
-        revalidate: 30,
-      },
-    }
-  );
+  const response = await fetch("http://localhost:5000/flash-sale", {
+    next: {
+      revalidate: 30,
+    },
+  });
   const result = await response.json();
   return (
     <Container>
@@ -25,9 +22,9 @@ const FlashSale = async () => {
           </button>
         </Link>
       </div>
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
-        {result?.data.slice(0, 6).map((product: TProduct) => (
-          <FlashCards key={product._id} product={product}></FlashCards>
+      <div className="grid grid-cols-2 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
+        {result?.data.slice(0, 8).map((product: TProduct) => (
+          <FlashCard key={product._id} product={product}></FlashCard>
         ))}
       </div>
     </Container>

@@ -30,7 +30,14 @@ const Navbar = () => {
           <li>
             <CustomLink path="/dishwashing-items">Products</CustomLink>
           </li>
-          <CustomLink path="/dashboard/products">Dashboard</CustomLink>
+          {userInfo?.email && (
+            <li>
+              <CustomLink path="/dashboard/admin/products">
+                Dashboard
+              </CustomLink>
+            </li>
+          )}
+
           <li>
             <CustomLink path="/category">Category</CustomLink>
           </li>

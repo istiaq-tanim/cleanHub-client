@@ -1,5 +1,8 @@
+import { USerRole } from "@/app/types/types";
+import { sidebarItems } from "@/app/utils/sideBarItem";
+import Image, { StaticImageData } from "next/image";
+
 import Link from "next/link";
-import { FaBoxOpen, FaHome } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -9,17 +12,20 @@ const Sidebar = () => {
         aria-label="close sidebar"
         className="drawer-overlay"
       ></label>
-      <ul className="menu p-4 w-80 min-h-full bg-[#D9D9D9] text-base-content">
-        <li className="text-lg">
-          <Link href="/">
-            <FaHome></FaHome>Home
-          </Link>
-        </li>
-        <li className="text-lg">
-          <Link href="/dishwashing-items">
-            <FaBoxOpen /> All Products
-          </Link>
-        </li>
+      <ul className="menu p-4 w-80 min-h-full bg-[#f0e7e7] text-base-content">
+        {sidebarItems("admin" as USerRole).map((item, index) => (
+          <li className="text-lg" key={index}>
+            <Link href={item.path} className="flex items-center">
+              <Image
+                src={item?.icon as StaticImageData}
+                alt="icon"
+                width={30}
+                height={30}
+              ></Image>
+              <span className="pt-1">{item?.title}</span>
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
   );

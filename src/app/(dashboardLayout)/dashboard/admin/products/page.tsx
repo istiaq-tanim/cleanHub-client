@@ -1,4 +1,4 @@
-import AllProducts from "../../../components/UI/Dashboard/AllProducts";
+import AllProducts from "../../../../components/UI/Dashboard/AllProducts";
 
 const ProductPage = () => {
   return (

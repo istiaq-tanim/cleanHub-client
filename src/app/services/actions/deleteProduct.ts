@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache"
 
 export const deleteProduct = async (id: string) => {
-      const response = await fetch(`http://localhost:5000/product/${id}`, {
+      const response = await fetch(`https://cleaning-supply-server.vercel.app/product/${id}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" }
       })

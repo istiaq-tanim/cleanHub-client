@@ -14,7 +14,7 @@ export type SaveProduct = {
 };
 
 export const addProduct = async (product: SaveProduct) => {
-      const response = await fetch("http://localhost:5000/addProduct", {
+      const response = await fetch("https://cleaning-supply-server.vercel.app/addProduct", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(product),

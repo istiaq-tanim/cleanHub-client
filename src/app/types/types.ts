@@ -6,8 +6,8 @@ export type TProduct = {
       productName: string,
       rating: number,
       price: number,
-      flashSale: boolean
-      reviewNumber: number,
+      flashSale?: boolean
+      reviewNumber?: number,
       brand: string
       description: string,
       category: string,

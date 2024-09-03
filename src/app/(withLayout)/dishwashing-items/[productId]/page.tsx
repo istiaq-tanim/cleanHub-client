@@ -3,7 +3,9 @@ import ProductDetails from "@/app/components/UI/ProductDetails/ProductDetails";
 import { TProduct } from "@/app/types/types";
 
 export const generateStaticParams = async () => {
-  const response = await fetch("http://localhost:5000/dishWashing-items");
+  const response = await fetch(
+    "https://cleaning-supply-server.vercel.app/dishWashing-items"
+  );
   const result = await response.json();
   return result?.data
     .slice(0, 10)
@@ -17,7 +19,7 @@ const ProductDetailsPage = async ({
 }) => {
   const { productId } = params;
   const response = await fetch(
-    `http://localhost:5000/dishWashing-items/${productId}`
+    `https://cleaning-supply-server.vercel.app/dishWashing-items/${productId}`
   );
   const result = await response.json();
 

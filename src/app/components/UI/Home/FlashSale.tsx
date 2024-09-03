@@ -5,11 +5,14 @@ import Container from "../Container";
 import FlashCard from "../FlashCard";
 
 const FlashSale = async () => {
-  const response = await fetch("http://localhost:5000/flash-sale", {
-    next: {
-      revalidate: 30,
-    },
-  });
+  const response = await fetch(
+    "https://cleaning-supply-server.vercel.app/flash-sale",
+    {
+      next: {
+        revalidate: 30,
+      },
+    }
+  );
   const result = await response.json();
   return (
     <Container>

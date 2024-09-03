@@ -5,11 +5,14 @@ import Container from "../Container";
 import PopularCard from "../PopularCard";
 
 const TrendingProduct = async () => {
-  const response = await fetch("http://localhost:5000/trending-product", {
-    next: {
-      revalidate: 30,
-    },
-  });
+  const response = await fetch(
+    "https://cleaning-supply-server.vercel.app/trending-product",
+    {
+      next: {
+        revalidate: 30,
+      },
+    }
+  );
   const result = await response.json();
   return (
     <Container>

@@ -2,9 +2,12 @@ import { TProduct } from "@/app/types/types";
 import AllProductRow from "./AllProductRow";
 
 const AllProducts = async () => {
-  const response = await fetch("http://localhost:5000/dishWashing-items", {
-    cache: "no-store",
-  });
+  const response = await fetch(
+    "https://cleaning-supply-server.vercel.app/dishWashing-items",
+    {
+      cache: "no-store",
+    }
+  );
   const products = await response.json();
   return (
     <div className="overflow-x-auto font-[sans-serif]">
